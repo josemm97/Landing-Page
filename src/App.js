@@ -1,7 +1,8 @@
 import './App.css';
-import Icon from '@material-ui/core/Icon';
-import {Button, Typography, makeStyles} from '@material-ui/core'
+
+import { makeStyles} from '@material-ui/core'
 import Header from './Components/Header';
+import PlaceToVisit from './Components/PlaceToVisit'
 
 
 const useStyles=makeStyles(theme=>({
@@ -20,6 +21,8 @@ const useStyles=makeStyles(theme=>({
 
     <div className={classes.root}>
       <Header/>
+      <PlaceToVisit/>
+    
     </div>
   );
 }
